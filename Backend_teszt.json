@@ -1,0 +1,89 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Ingatlan_backend_teszt",
+    "collectionId": "6be4b58a-9c5f-4a2d-83f6-02e597c50f31",
+    "dateExported": "2024-06-11T14:59:31.482Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "24287c33-7621-4d8e-8e92-0435498553a0",
+            "colId": "6be4b58a-9c5f-4a2d-83f6-02e597c50f31",
+            "containerId": "",
+            "name": "Get all estates",
+            "url": "http://127.0.0.1:8000/api/ingatlan",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-06-11T14:18:54.256Z",
+            "modified": "2024-06-11T14:19:44.157Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ]
+        },
+        {
+            "_id": "6abcfd3d-934e-4126-b63f-f2a2de42dd1d",
+            "colId": "6be4b58a-9c5f-4a2d-83f6-02e597c50f31",
+            "containerId": "",
+            "name": "Get estates of category",
+            "url": "http://127.0.0.1:8000/api/categories/1/estates",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2024-06-11T14:57:03.667Z",
+            "modified": "2024-06-11T14:57:48.918Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ]
+        },
+        {
+            "_id": "fee60b69-6912-4e7e-aa22-cf1ba69704a4",
+            "colId": "6be4b58a-9c5f-4a2d-83f6-02e597c50f31",
+            "containerId": "",
+            "name": "Create estate",
+            "url": "http://127.0.0.1:8000/api/ingatlan",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-06-11T14:40:52.437Z",
+            "modified": "2024-06-11T14:42:49.902Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n   \"kategoria\": 2,\n \"leiras\": \"Eladó ...\",\n \"hirdetesDatuma\": \"2022-03-19\",\n \"tehermentes\": true,\n \"ar\": 45000000,\n \"kepUrl\": \"https://pictures.com/apartman.jpg\"\n\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "6ba4449d-21cc-4f20-a2db-7a267a90afbf",
+            "colId": "6be4b58a-9c5f-4a2d-83f6-02e597c50f31",
+            "containerId": "",
+            "name": "Delete estate",
+            "url": "http://127.0.0.1:8000/api/ingatlan/7",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-06-11T14:48:15.752Z",
+            "modified": "2024-06-11T14:49:09.088Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n   \"kategoria\": 2,\n \"leiras\": \"Eladó ...\",\n \"hirdetesDatuma\": \"2022-03-19\",\n \"tehermentes\": true,\n \"ar\": 45000000,\n \"kepUrl\": \"https://pictures.com/apartman.jpg\"\n\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "YMWo_Ex25czozhC9ER_ogbIG5Mkrl627SjtTNrfOtokXZ3tM8Kt8OEP_civd_f6kYdGjPQv5b65OL9vUuq2s4g"
+}
